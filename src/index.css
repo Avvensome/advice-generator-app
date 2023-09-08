@@ -51,3 +51,15 @@ body {
 .dice-btn:active {
 	box-shadow: 0px 0px 50px 0px hsl(150, 100%, 66%), 0px 0px 0px 0px black;
 }
+@media screen and (max-width: 375px) {
+	.app-main {
+		padding: 20px;
+		width: 250px;
+	}
+	.app-main > * {
+		padding: 10px;
+	}
+	.dice {
+		width: 20px;
+	}
+}
